@@ -1,0 +1,19 @@
+{
+    "name": "jmir/gedcom",
+    "authors": [
+        {
+            "name": "Israel Simmons",
+            "email": "israel.simmons@jmir.org"
+        }
+    ],
+    "require": {
+        "mrkrstphr/php-gedcom": "^1.0",
+        "illuminate/database": "^5.8",
+        "illuminate/events": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Models\\":"Models/"
+        }
+    }
+}
